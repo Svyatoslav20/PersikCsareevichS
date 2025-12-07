@@ -157,3 +157,10 @@ body {
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .footer__nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
